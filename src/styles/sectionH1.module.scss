@@ -1,0 +1,75 @@
+@import "../App.scss";
+
+.section {
+  background: $cblackbg;
+  padding-top: 220px;
+  padding-bottom: 75px;
+}
+.sectionH1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: $m1470;
+  padding: $m1470p;
+  position: relative;
+  margin: auto;
+  margin-bottom: 160px;
+}
+
+.sectionH1__left {
+  max-width: 645px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  h1 {
+    color: $cblue;
+    font-size: $fbig;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 100%;
+  }
+  p {
+    font-size: 24px;
+    color: $cwhite;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .sectionH1__btns {
+    display: flex;
+    gap: 35px;
+    button {
+      font-size: 20px;
+      font-family: "Open Sans";
+      font-weight: 500;
+      border-radius: 100px;
+      height: 56px;
+      width: 205px;
+    }
+    .choose {
+      color: $cwhite;
+      border: 1px solid $cwhite;
+      background: none;
+    }
+    .explore {
+      color: $cwhite;
+      background: $cblue;
+      border: none;
+    }
+  }
+}
+
+.sectionH1__right {
+  position: absolute;
+  right: 100px;
+  top: -120px;
+}
+
+.sectionH1__categories {
+  max-width: $m1470;
+  padding: $m1470p;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
